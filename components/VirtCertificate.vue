@@ -5,7 +5,7 @@
       <input
         v-model="username"
         type="text"
-        class="w-48 h-12 bg-gray-900 border border-gray-300"
+        class="w-48 h-12 p-2 bg-gray-900 border border-gray-300"
       />
       <button
         class="p-2 bg-blue-500"
