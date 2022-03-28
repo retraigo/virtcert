@@ -1,5 +1,5 @@
 <template>
-  <div class="flex flex-col items-center space-y-0.5 font-monsterrat">
+  <div class="text-center flex flex-col items-center space-y-0.5 font-monsterrat">
     <div class="font-semibold text-xl text-red-500 font-montserrat">
       Easwari Engineering College (Autonomous)
     </div>  
