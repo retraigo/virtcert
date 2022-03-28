@@ -34,27 +34,18 @@
           @click="reloadCanvas"
         >Generate</button>
       </div>
-      <button
-        class="px-4 h-8 py-1 bg-blue-500 text-white rounded-2xl transition duration-500 ease-in-out transform hover:scale-110"
+      <a
+        class="block px-4 h-8 py-1 bg-blue-500 text-white rounded-2xl transition duration-500 ease-in-out transform hover:scale-110"
         :disabled="disableDownload()"
-        @click="downloadCanvas"
-      >Download</button>
+        :href = "canvasURL" :download = "`CERTIFICATE_2022_IVCMASM_${user.name.toUpperCase().replace(/\s/g, '_')}.png`"
+      >Download</a>
       <canvas
         ref="cert"
         class="hidden"
         height="1131px"
         width="1600px"
       />
-      <canvas
-        ref="displaycert" class = "hidden md:block"
-        height="424px"
-        width="600px"
-      />
-      <canvas
-        ref="displaycertsmaller"  class = "block md:hidden"
-        height="226px"
-        width="320px"
-      />
+      <img :src = "canvasURL" class = "w-full md:max-w-2xl" />
     </div>
   </div>
 </template>
@@ -74,6 +65,7 @@ export default {
       canvasItem: null,
       miniCanvas: null,
       minierCanvas: null,
+      canvasURL: null,
       persons,
     }
   },
@@ -94,6 +86,9 @@ export default {
             this.minierCanvas = this.$refs.displaycertsmaller
       this.canvasContext = this.canvasItem.getContext('2d')
       await this.loadCert()
+    },
+    getCanvasURL() {
+      return this.canvasItem.toDataURL('image/png')
     },
     applyText(canvas, text, base = 300, weight = 900, font = 'Merriweather') {
       const ctx = canvas.getContext('2d')
@@ -193,31 +188,10 @@ export default {
         canvas.width / 2,
         795
       )
-      const oldCanvas = canvas.toDataURL('image/png')
-      const img = new Image()
-      console.log(oldCanvas)
-      img.src = oldCanvas
-      img.onload = () => {
-        const newCtx = this.miniCanvas.getContext('2d')
-        newCtx.drawImage(
-          img,
-          0,
-          0,
-          this.miniCanvas.width,
-          this.miniCanvas.height
-        )
-        const newCtx2 = this.minierCanvas.getContext('2d')
-        newCtx2.drawImage(
-          img,
-          0,
-          0,
-          this.minierCanvas.width,
-          this.minierCanvas.height
-        )
-      }
+      this.canvasURL = this.getCanvasURL()
     },
     downloadCanvas() {
-      const canvasUrl = this.canvasItem.toDataURL('image/png')
+      const canvasUrl = this.canvasURL
       window.location.href = canvasUrl
     },
     toggleDrop() {
