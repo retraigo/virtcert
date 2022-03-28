@@ -8,7 +8,7 @@
     ></div>
     <div class="py-4 flex flex-col items-center space-y-4">
       <label for="username">Generate Your Certificate</label>
-      <div class="flex flex-row space-x-2">
+      <div class="flex flex-row items-center space-x-2">
         <div class="py-2 relative">
           <input
             v-model="username"
@@ -30,12 +30,12 @@
           </div>
         </div>
         <button
-          class="p-2 bg-blue-500"
+          class="px-4 h-8 py-1 bg-blue-500 text-white rounded-2xl transition duration-500 ease-in-out transform hover:translate-y-1"
           @click="reloadCanvas"
         >Generate</button>
       </div>
       <button
-        class="p-2 bg-blue-500"
+        class="px-4 h-8 py-1 bg-blue-500 text-white rounded-2xl transition duration-500 ease-in-out transform hover:scale-110"
         :disabled="disableDownload()"
         @click="downloadCanvas"
       >Download</button>
@@ -46,9 +46,14 @@
         width="1600px"
       />
       <canvas
-        ref="displaycert"
+        ref="displaycert" class = "hidden md:block"
         height="424px"
         width="600px"
+      />
+      <canvas
+        ref="displaycertsmaller"  class = "block md:hidden"
+        height="283px"
+        width="400px"
       />
     </div>
   </div>
@@ -68,6 +73,7 @@ export default {
       canvasContext: null,
       canvasItem: null,
       miniCanvas: null,
+      minierCanvas: null,
       persons,
     }
   },
@@ -85,6 +91,7 @@ export default {
         return
       this.canvasItem = this.$refs.cert
       this.miniCanvas = this.$refs.displaycert
+            this.minierCanvas = this.$refs.displaycertsmaller
       this.canvasContext = this.canvasItem.getContext('2d')
       await this.loadCert()
     },
@@ -198,6 +205,14 @@ export default {
           0,
           this.miniCanvas.width,
           this.miniCanvas.height
+        )
+        const newCtx2 = this.minierCanvas.getContext('2d')
+        newCtx2.drawImage(
+          img,
+          0,
+          0,
+          this.minierCanvas.width,
+          this.minierCanvas.height
         )
       }
     },
