@@ -1,31 +1,67 @@
 <template>
   <div class="p-4">
     <div class="py-4 flex flex-col items-center space-y-4">
-      Enter your name
-      <input
-        v-model="username"
-        type="text"
-        class="w-48 h-12 p-2 bg-gray-900 border border-gray-300"
-      />
+      <label for="username">Generate Your Certificate</label>
+      <div class="flex flex-row space-x-2">
+        <div class="py-2 relative">
+          <input
+            v-model="username"
+            placeholder="Your Name"
+            @input="toggleDrop"
+            id="username"
+            type="text"
+            class="w-full md:w-72 h-12 p-2 bg-gray-900 border border-gray-300"
+          />
+          <div :class="`${dropOpen ? 'block' : 'hidden'} absolute flex flex-col w-full md:w-72 bg-gray-700 p-2`">
+            <div
+              v-for="person in persons.filter(x => x.name.toLowerCase().includes(username ? username.toLowerCase() : ''))"
+              :key="person.name"
+              class="p-2 cursor-pointer transition duration-500 ease-in-out bg-gray-700 hover:bg-blue-700"
+              @click="x => {setName(person);toggleOff()}"
+            >
+              <span>{{person.name}}</span>
+            </div>
+          </div>
+        </div>
+        <button
+          class="p-2 bg-blue-500"
+          @click="reloadCanvas"
+        >Generate</button>
+      </div>
       <button
-        class="p-2 bg-blue-500"
-        @click="reloadCanvas"
-      >Generate</button>
+        class="p-2 bg-blue-500" :disabled = "disableDownload()"
+        @click="downloadCanvas"
+      >Download</button>
       <canvas
         ref="cert"
-        height="720px"
-        width="1280px"
+        class="hidden"
+        height="1131px"
+        width="1600px"
+      />
+      <canvas
+        ref="displaycert"
+        height="424px"
+        width="600px"
       />
     </div>
   </div>
 </template>
 <script>
+import persons from '@/data/results.js'
 export default {
   data() {
     return {
+      dropOpen: false,
       username: null,
+      user: {
+        name: 'John Smith',
+        organization: 'Lorem Ipsum',
+        title: 'Paper Title',
+      },
       canvasContext: null,
       canvasItem: null,
+      miniCanvas: null,
+      persons,
     }
   },
   mounted() {
@@ -35,7 +71,13 @@ export default {
   },
   methods: {
     async reloadCanvas() {
+      if (
+        this.username !== null &&
+        !this.persons.some((x) => x.name.includes(this.username))
+      )
+        return
       this.canvasItem = this.$refs.cert
+      this.miniCanvas = this.$refs.displaycert
       this.canvasContext = this.canvasItem.getContext('2d')
       await this.loadCert()
     },
@@ -64,7 +106,7 @@ export default {
       const canvas = this.canvasItem
       const ctx = this.canvasContext
       const background = new Image()
-      background.src = '/cert_base.png'
+      background.src = '/template.jpeg'
       background.onload = () => {
         const icon = new Image()
         icon.src = this.$icon(512)
@@ -100,98 +142,75 @@ export default {
     },
     createCert() {
       const canvas = this.canvasItem
-      const ctx = this.canvasContext
+      //      const ctx = this.canvasContext
       this.addText(
         canvas,
         {
-          content: 'Easwari Engineering College',
-          color: 'rgb(96, 165, 250)',
-          border: 'transparent',
-          align: 'left',
-        },
-        { size: 48, weight: 700 },
-        225,
-        120
-      )
-      this.addText(
-        canvas,
-        {
-          content: 'Department of Artificial Intelligence & Data Science',
-          color: '#000000',
-          border: 'transparent',
-          align: 'left',
-        },
-        { size: 50, weight: 800 },
-        225,
-        160
-      )
-      this.addText(
-        canvas,
-        {
-          content: 'International Virtual Conference on',
-          color: 'rgb(96, 165, 250)',
-          border: 'transparent',
-          align: 'center',
-        },
-        { size: 50, weight: 800 },
-        canvas.width / 2,
-        230
-      )
-      this.addText(
-        canvas,
-        {
-          content: 'Machine Learning Applications in',
-          color: 'rgb(96, 165, 250)',
-          border: 'transparent',
-          align: 'center',
-        },
-        { size: 50, weight: 800 },
-        canvas.width / 2,
-        270
-      )
-      this.addText(
-        canvas,
-        {
-          content: 'Applied Sciences and Mathematics',
-          color: 'rgb(96, 165, 250)',
-          border: 'transparent',
-          align: 'center',
-        },
-        { size: 50, weight: 800 },
-        canvas.width / 2,
-        310
-      )
-      this.addText(
-        canvas,
-        {
-          content: 'Certificate of Participation',
-          color: '#000000',
-          border: 'transparent',
-          align: 'center',
-        },
-        { size: 96, weight: 700, font: 'cursive' },
-        canvas.width / 2,
-        450
-      )
-
-      this.addText(
-        canvas,
-        {
-          content: this.username,
+          content: this.user.name,
           color: '#202020',
           border: 'transparent',
           align: 'center',
         },
-        { size: 84, weight: 900, font: 'cursive' },
-        canvas.width / 2,
-        540
+        { size: 72, weight: 900, font: 'cursive' },
+        canvas.width / 2 + 200,
+        500
       )
-      ctx.strokeStyle = "#000000"
-      ctx.setLineDash([10, 15, 10, 10]);
-      ctx.lineWidth = 4
-      ctx.moveTo(100, 560)
-      ctx.lineTo(1180, 560)
-      ctx.stroke()
+      this.addText(
+        canvas,
+        {
+          content: this.user.organization,
+          color: '#202020',
+          border: 'transparent',
+          align: 'center',
+        },
+        { size: 72, weight: 900, font: 'cursive' },
+        canvas.width / 2 - 100,
+        560
+      )
+      this.addText(
+        canvas,
+        {
+          content: this.user.title,
+          color: '#202020',
+          border: 'transparent',
+          align: 'center',
+        },
+        { size: 72, weight: 900, font: 'cursive' },
+        canvas.width / 2,
+        795
+      )
+      const oldCanvas = canvas.toDataURL('image/png')
+      const img = new Image()
+      console.log(oldCanvas)
+      img.src = oldCanvas
+      img.onload = () => {
+        const newCtx = this.miniCanvas.getContext('2d')
+        newCtx.drawImage(
+          img,
+          0,
+          0,
+          this.miniCanvas.width,
+          this.miniCanvas.height
+        )
+      }
+    },
+    downloadCanvas() {
+      const canvasUrl = this.canvasItem.toDataURL('image/png')
+      window.location.href = canvasUrl
+    },
+    toggleDrop() {
+      this.dropOpen = true
+    },
+    toggleOff() {
+      this.dropOpen = false
+    },
+    disableDownload() {
+      return this.user.name === "John Smith"
+    },
+    setName(x) {
+      this.user = x
+      this.username = x.name
+      this.reloadCanvas()
     },
   },
   // eslint-disable-next-line vue/require-render-return
