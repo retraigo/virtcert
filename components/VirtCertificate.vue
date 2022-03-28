@@ -1,5 +1,11 @@
 <template>
   <div class="p-4">
+    <div
+      :class="`inset-0 w-full fixed h-full z-30 block ${
+              (dropOpen) ? 'visible bg-gray-100 bg-opacity-10' : 'invisible'
+            }`"
+      @click="toggleOff"
+    ></div>
     <div class="py-4 flex flex-col items-center space-y-4">
       <label for="username">Generate Your Certificate</label>
       <div class="flex flex-row space-x-2">
@@ -12,7 +18,7 @@
             type="text"
             class="w-full md:w-72 h-12 p-2 bg-gray-900 border border-gray-300"
           />
-          <div :class="`${dropOpen ? 'block' : 'hidden'} absolute flex flex-col w-full md:w-72 bg-gray-700 p-2`">
+          <div :class="`${dropOpen ? 'block' : 'hidden'} absolute z-40 flex flex-col w-full md:w-72 bg-gray-700 p-2`">
             <div
               v-for="person in persons.filter(x => x.name.toLowerCase().includes(username ? username.toLowerCase() : ''))"
               :key="person.name"
@@ -29,7 +35,8 @@
         >Generate</button>
       </div>
       <button
-        class="p-2 bg-blue-500" :disabled = "disableDownload()"
+        class="p-2 bg-blue-500"
+        :disabled="disableDownload()"
         @click="downloadCanvas"
       >Download</button>
       <canvas
@@ -205,7 +212,7 @@ export default {
       this.dropOpen = false
     },
     disableDownload() {
-      return this.user.name === "John Smith"
+      return this.user.name === 'John Smith'
     },
     setName(x) {
       this.user = x
