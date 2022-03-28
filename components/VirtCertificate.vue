@@ -52,8 +52,8 @@
       />
       <canvas
         ref="displaycertsmaller"  class = "block md:hidden"
-        height="283px"
-        width="400px"
+        height="226px"
+        width="320px"
       />
     </div>
   </div>
