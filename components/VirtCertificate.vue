@@ -21,7 +21,7 @@
           <div :class="`${dropOpen ? 'block' : 'hidden'} overflow-y-scroll max-h-64 absolute z-40 flex flex-col w-full md:w-72 bg-gray-700 p-2`">
             <div
               v-for="person in persons.filter(x => x.name.toLowerCase().includes(username ? username.toLowerCase() : ''))"
-              :key="person.name"
+              :key="person.name + person.paper_id"
               class="p-2 cursor-pointer transition duration-500 ease-in-out bg-gray-700 hover:bg-blue-700"
               @click="x => {setName(person);toggleOff()}"
             >
@@ -59,7 +59,7 @@ export default {
   data() {
     const newPersons = persons.map((person) => {
       return {
-        name: person.name
+        name: this.formatName(person.name)
           .split(' ')
           .map((x) => this.capitalizeName(x, true))
           .join(' '),
@@ -114,6 +114,11 @@ export default {
         s.charAt(0).toUpperCase() +
         `${titlecase ? s.slice(1).toLowerCase() : s.slice(1)}`
       )
+    },
+    formatName(s) {
+      const m = `${s.replace(/\s([A-Z])\s/g, " $1. ").replace(/\s([A-Z])$/gi, " $1.").replace(/^([A-Z])\s/gi, "$1. ").replace(/([a-z][a-z])\. ([A-Z])/gi, "$1 $2.").replace(/\.([A-Z])\./gi, ". $1.").replace(/Dr\s/gi, "Dr. ").replace(/\.([A-Z])/gi, ". $1").replace(/\.\./gi, ".")}`
+      console.log(m)
+      return m
     },
     getCanvasURL() {
       return this.canvasItem.toDataURL('image/png')
