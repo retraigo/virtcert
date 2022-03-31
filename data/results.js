@@ -210,14 +210,16 @@ export default [
   {
     "name": "K. Radha.",
     "paper_id": "60",
-    "organization": "Vels Institute of Science",
-    "title": "Technology & Advanced Studies",
+    "organization": "Vels Institute of Science,Technology & Advanced Studies",
+    "title":
+      "Comprehensive Review on DDoS Attack Prevention in Cloud Environment",
   },
   {
     "name": "Dr. R. Parameswari",
     "paper_id": "60",
-    "organization": "Vels Institute of Science",
-    "title": "Technology & Advanced Studies",
+    "organization": "Vels Institute of Science, Technology & Advanced Studies",
+    "title":
+      "Comprehensive Review on DDoS Attack Prevention in Cloud Environment",
   },
   {
     "name": "ANITHA.C",
@@ -240,8 +242,8 @@ export default [
   {
     "name": "INDUMATHI.G",
     "paper_id": "44",
-    "organization": "SRM Institute of Science and Technology",
-    "title": "",
+    "organization": "SRM Institute of Science and Technology,",
+    "title": "MACHINE LEARNING METHODS OF SLEUTHING MALEVOLENT WEB CHANNELS",
   },
   {
     "name": "Dr. S. Priyadarsini",
@@ -300,74 +302,95 @@ export default [
   {
     "name": "R. MARY SHEEBA",
     "paper_id": "68",
-    "organization": "Vels Institute of Science Technology and Advanced Studies",
-    "title": "Chennai",
+    "organization":
+      "Vels Institute of Science Technology and Advanced Studies, Chennai",
+    "title":
+      "Machine Learning Applications and Techniques in Healthcare Domain: A Review",
   },
   {
     "name": "R. PARAMESWARI",
     "paper_id": "68",
-    "organization": "Vels Institute of Science Technology and Advanced Studies",
-    "title": "Chennai",
+    "organization":
+      "Vels Institute of Science Technology and Advanced Studies, Chennai",
+    "title":
+      "Machine Learning Applications and Techniques in Healthcare Domain: A Review",
   },
   {
     "name": "S Asha",
     "paper_id": "213",
-    "organization": "Vellore Institute of Technology",
-    "title": "Chennai",
+    "organization": "Vellore Institute of Technology, Chennai",
+    "title": "Converting Non-Smart Devices into IoT Enabled Devices",
   },
   {
     "name": "Shola Usharani",
     "paper_id": "213",
-    "organization": "Vellore Institute of Technology",
-    "title": "Chennai",
+    "organization": "Vellore Institute of Technology, Chennai",
+    "title": "Converting Non-Smart Devices into IoT Enabled Devices",
   },
   {
     "name": "Mihir Ashish Gupte",
     "paper_id": "213",
-    "organization": "Vellore Institute of Technology",
-    "title": "Chennai",
+    "organization": "Vellore Institute of Technology, Chennai",
+    "title": "Converting Non-Smart Devices into IoT Enabled Devices",
   },
   {
     "name": "Neelesh Ranjan Jha",
     "paper_id": "213",
-    "organization": "Vellore Institute of Technology",
-    "title": "Chennai",
+    "organization": "Vellore Institute of Technology, Chennai",
+    "title": "Converting Non-Smart Devices into IoT Enabled Devices",
   },
   {
     "name": "C.Valliyammai",
     "paper_id": "179",
-    "organization": "MIT Campus",
-    "title": "Anna University",
+    "organization": "MIT Campus, Anna University",
+    "title":
+      "Bursty Event Detection using Deep Learning based on Social Media Data",
   },
   {
     "name": "S.Sri Vaishnavi Devi",
     "paper_id": "179",
-    "organization": "MIT Campus",
-    "title": "Anna University",
+    "organization": "MIT Campus, Anna University",
+    "title":
+      "Bursty Event Detection using Deep Learning based on Social Media Data",
   },
   {
     "name": "D.Manikandan",
     "paper_id": "179",
-    "organization": "MIT Campus",
-    "title": "Anna University",
+    "organization": "MIT Campus, Anna University",
+    "title":
+      "Bursty Event Detection using Deep Learning based on Social Media Data",
+  },
+  {
+    "name": "Dr. Archana Chaudhary",
+    "paper_id": "153",
+    "organization": "SGT UNIVERSITY Gurugram",
+    "title":
+      "An Assessment of Environmental Sustainability of Plastic in Agriculture",
+  },
+  {
+    "name": "Dr. Bhoopesh Kumar Sharma",
+    "paper_id": "153",
+    "organization": "SGT University Gurugram",
+    "title":
+      "An Assessment of Environmental Sustainability of Plastic in Agriculture",
   },
   {
     "name": "Dr.P.Ramani",
     "paper_id": "12",
-    "organization": "SRM Institute of Science and Technology",
-    "title": "Ramapuram",
+    "organization": "SRM Institute of Science and Technology,Ramapuram",
+    "title": "Image based Visual Servoing for tele-operated ground Vehicle",
   },
   {
     "name": "N. Balachandar",
     "paper_id": "12",
-    "organization": "SRM Institute of Science and Technology",
-    "title": "Ramapuram",
+    "organization": "SRM Institute of Science and Technology, Ramapuram",
+    "title": "Image based Visual Servoing for tele-operated ground Vehicle",
   },
   {
     "name": "Anju Vargeesh",
     "paper_id": "12",
-    "organization": "SRM Institute of Science and Technology",
-    "title": "Ramapuram",
+    "organization": "SRM Institute of Science and Technology, Ramapuram",
+    "title": "Image based Visual Servoing for tele-operated ground Vehicle",
   },
   {
     "name": "Muvva Anudeep",
@@ -390,20 +413,23 @@ export default [
   {
     "name": "MANIVANNAN T",
     "paper_id": "16",
-    "organization": "Don Bosco College(Co-Ed)",
-    "title": "Yelagiri Hills",
+    "organization": "Don Bosco College(Co-Ed), Yelagiri Hills",
+    "title":
+      "Adaptive Framework and Efficient Algorithm to Improve the Quality of Service in the Internet of Things",
   },
   {
     "name": "Dr. Radhakrishnan P",
     "paper_id": "16",
-    "organization": "Don Bosco College (Co-Ed)",
-    "title": "Yelagiri Hills",
+    "organization": "Don Bosco College (Co-Ed), Yelagiri Hills",
+    "title":
+      "Adaptive Framework and Efficient Algorithm to Improve the Quality of Service in the Internet of Things",
   },
   {
     "name": "Dhamodharan G",
     "paper_id": "16",
-    "organization": "Don Bosco College (Co-Ed)",
-    "title": "Yelagiri Hills",
+    "organization": "Don Bosco College (Co-Ed), Yelagiri Hills",
+    "title":
+      "Adaptive Framework and Efficient Algorithm to Improve the Quality of Service in the Internet of Things",
   },
   {
     "name": "Lijetha. C. Jaffrin",
@@ -429,20 +455,23 @@ export default [
   {
     "name": "Dhamodharn G",
     "paper_id": "15",
-    "organization": "Don Bosco College (Co-Ed)",
-    "title": "Yelagiri Hills",
+    "organization": "Don Bosco College (Co-Ed), Yelagiri Hills",
+    "title":
+      "A new secure mapping scheme on elliptic curve cryptography for internet of things",
   },
   {
     "name": "Dr. S. Thaddeus",
     "paper_id": "15",
-    "organization": "Don Bosco College (Co-Ed)",
-    "title": "Yelagiri Hills",
+    "organization": "Don Bosco College (Co-Ed), Yelagiri Hills",
+    "title":
+      "A new secure mapping scheme on elliptic curve cryptography for internet of things",
   },
   {
     "name": "Manivannan T",
     "paper_id": "15",
-    "organization": "Don Bosco College (Co-Ed)",
-    "title": "Yelagiri Hills",
+    "organization": "Don Bosco College (Co-Ed), Yelagiri Hills",
+    "title":
+      "A new secure mapping scheme on elliptic curve cryptography for internet of things",
   },
   {
     "name": "Dr. Lakshmi Kanthan Narayanan",
@@ -469,16 +498,24 @@ export default [
     "title": "Comparative Study On Ontology Matching Tools And Methods",
   },
   {
+    "name": "Dr. Lakshmi Kanthan Narayanan",
+    "paper_id": "97",
+    "organization": "Saranathan College of Engineering",
+    "title": "Comparative Study On Ontology Matching Tools And Methods",
+  },
+  {
     "name": "P.KARTHIKA",
     "paper_id": "164",
-    "organization": "Vellore Institute of Technology",
-    "title": "Chennai",
+    "organization": "Vellore Institute of Technology, Chennai",
+    "title":
+      "DDoS Attack Detection in SDN: A Special Attention towards Optimization Model",
   },
   {
     "name": "A.KARMEL",
     "paper_id": "164",
-    "organization": "Vellore Institute of Technology",
-    "title": "Chennai",
+    "organization": "Vellore Institute of Technology, Chennai",
+    "title":
+      "DDoS Attack Detection in SDN: A Special Attention towards Optimization Model",
   },
   {
     "name": "K.S.Kiruthigha Sri",
@@ -504,20 +541,23 @@ export default [
   {
     "name": "Dr. Sandhya P",
     "paper_id": "219",
-    "organization": "Vellore Institute of Technology",
-    "title": "Chennai Campus",
+    "organization": "Vellore Institute of Technology, Chennai Campus",
+    "title":
+      "Deep learning-based object detection and counting in tomato fields",
   },
   {
     "name": "Priyanka V",
     "paper_id": "219",
-    "organization": "Vellore Institute of Technology",
-    "title": "Chennai Campus",
+    "organization": "Vellore Institute of Technology, Chennai Campus",
+    "title":
+      "Deep learning-based object detection and counting in tomato fields",
   },
   {
     "name": "Dr. Vani V",
     "paper_id": "219",
-    "organization": "Vellore Institute of Technology",
-    "title": "Chennai Campus",
+    "organization": "Vellore Institute of Technology, Chennai Campus",
+    "title":
+      "Deep learning-based object detection and counting in tomato fields",
   },
   {
     "name": "Manikandan V P",
@@ -560,14 +600,16 @@ export default [
   {
     "name": "Jayalakshmi V",
     "paper_id": "76",
-    "organization": "VELS INSTITUTE OF SCIENCE",
-    "title": "TECHNOLOGY AND ADVANCE STUDIES",
+    "organization": "VELS INSTITUTE OF SCIENCE, TECHNOLOGY AND ADVANCE STUDIES",
+    "title":
+      "The effect of health communication on using garbha mobile application for maternity",
   },
   {
     "name": "DR. P. SRI JOTHI",
     "paper_id": "76",
-    "organization": "VELS INSTITUTE OF SCIENCE",
-    "title": "TECHNOLOGY AND ADVANCE STUDIES",
+    "organization": "VELS INSTITUTE OF SCIENCE, TECHNOLOGY AND ADVANCE STUDIES",
+    "title":
+      "The effect of health communication on using garbha mobile application for maternity",
   },
   {
     "name": "Mini T. V.",

@@ -57,7 +57,7 @@
 import persons from '@/data/results.js'
 export default {
   data() {
-    const newPersons = persons.map((person) => {
+    const newPersons = persons.filter((x, i) => i !== persons.indexOf(persons.find(y => y.name.toLowerCase() === x.name.toLowerCase()))).map((person) => {
       return {
         name: this.formatName(person.name)
           .split(' ')
@@ -73,7 +73,9 @@ export default {
           .map((x) => this.capitalizeName(x, true))
           .join(' '),
       }
+      
     })
+    console.log(newPersons.length)
     return {
       dropOpen: false,
       username: null,
@@ -117,7 +119,6 @@ export default {
     },
     formatName(s) {
       const m = `${s.replace(/\s([A-Z])\s/g, " $1. ").replace(/\s([A-Z])$/gi, " $1.").replace(/^([A-Z])\s/gi, "$1. ").replace(/([a-z][a-z])\. ([A-Z])/gi, "$1 $2.").replace(/\.([A-Z])\./gi, ". $1.").replace(/Dr\s/gi, "Dr. ").replace(/\.([A-Z])/gi, ". $1").replace(/\.\./gi, ".")}`
-      console.log(m)
       return m
     },
     getCanvasURL() {
