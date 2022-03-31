@@ -18,7 +18,7 @@
             type="text"
             class="w-full md:w-72 h-12 p-2 bg-gray-900 border border-gray-300"
           />
-          <div :class="`${dropOpen ? 'block' : 'hidden'} absolute z-40 flex flex-col w-full md:w-72 bg-gray-700 p-2`">
+          <div :class="`${dropOpen ? 'block' : 'hidden'} overflow-y-scroll max-h-64 absolute z-40 flex flex-col w-full md:w-72 bg-gray-700 p-2`">
             <div
               v-for="person in persons.filter(x => x.name.toLowerCase().includes(username ? username.toLowerCase() : ''))"
               :key="person.name"
@@ -37,7 +37,8 @@
       <a
         class="block px-4 h-8 py-1 bg-blue-500 text-white rounded-2xl transition duration-500 ease-in-out transform hover:scale-110"
         :disabled="disableDownload()"
-        :href = "canvasURL" :download = "`CERTIFICATE_2022_IVCMASM_${user.name.toUpperCase().replace(/\s/g, '_')}.png`"
+        :href="canvasURL"
+        :download="`CERTIFICATE_2022_IVCMASM_${user.name.toUpperCase().replace(/[^a-z\s]/gi, '').replace(/\s/g, '_')}.png`"
       >Download</a>
       <canvas
         ref="cert"
@@ -45,7 +46,10 @@
         height="1131px"
         width="1600px"
       />
-      <img :src = "canvasURL" class = "w-full md:max-w-2xl" />
+      <img
+        :src="canvasURL"
+        class="w-full md:max-w-2xl"
+      />
     </div>
   </div>
 </template>
@@ -53,12 +57,30 @@
 import persons from '@/data/results.js'
 export default {
   data() {
+    const newPersons = persons.map((person) => {
+      return {
+        name: person.name
+          .split(' ')
+          .map((x) => this.capitalizeName(x, true))
+          .join(' '),
+        paper_id: person.paper_id,
+        organization: person.organization
+          .split(' ')
+          .map((x) => this.capitalizeName(x, true))
+          .join(' '),
+        title: person.title
+          .split(' ')
+          .map((x) => this.capitalizeName(x, true))
+          .join(' '),
+      }
+    })
     return {
       dropOpen: false,
       username: null,
       user: {
         name: 'John Smith',
-        organization: 'Lorem Ipsum',
+        paper_id: 99999,
+        organization: 'Affiliation',
         title: 'Paper Title',
       },
       canvasContext: null,
@@ -66,7 +88,7 @@ export default {
       miniCanvas: null,
       minierCanvas: null,
       canvasURL: null,
-      persons,
+      persons: newPersons,
     }
   },
   mounted() {
@@ -83,9 +105,15 @@ export default {
         return
       this.canvasItem = this.$refs.cert
       this.miniCanvas = this.$refs.displaycert
-            this.minierCanvas = this.$refs.displaycertsmaller
+      this.minierCanvas = this.$refs.displaycertsmaller
       this.canvasContext = this.canvasItem.getContext('2d')
       await this.loadCert()
+    },
+    capitalizeName(s, titlecase) {
+      return (
+        s.charAt(0).toUpperCase() +
+        `${titlecase ? s.slice(1).toLowerCase() : s.slice(1)}`
+      )
     },
     getCanvasURL() {
       return this.canvasItem.toDataURL('image/png')
@@ -97,18 +125,16 @@ export default {
       let fontSize = base
 
       do {
-        console.log('doing')
-        console.log(ctx.font)
         // Assign the font to the context and decrement it so it can be measured again
-        console.log(
-          `${(fontSize -= 10)}px ${`${font}` || 'cursive'}, Arial bold`
-        )
+        //        console.log(
+        //          `${(fontSize -= 10)}px ${`${font}` || 'cursive'}, Arial bold`
+        //        )
         ctx.font = `${weight} ${(fontSize -= 10)}px ${
           `${font}` || 'cursive'
         }, Arial bold`
-        console.log(ctx.font)
+        //        console.log(ctx.font)
       } while (ctx.measureText(text).width > canvas.width - 320)
-      console.log(ctx.font)
+      //      console.log(ctx.font)
       return ctx.font
     },
     loadCert() {
@@ -160,7 +186,7 @@ export default {
           border: 'transparent',
           align: 'center',
         },
-        { size: 72, weight: 900, font: 'cursive' },
+        { size: 70, weight: 900, font: 'cursive' },
         canvas.width / 2 + 200,
         500
       )
@@ -172,7 +198,7 @@ export default {
           border: 'transparent',
           align: 'center',
         },
-        { size: 72, weight: 900, font: 'cursive' },
+        { size: 70, weight: 900, font: 'cursive' },
         canvas.width / 2 - 100,
         560
       )
@@ -184,7 +210,7 @@ export default {
           border: 'transparent',
           align: 'center',
         },
-        { size: 72, weight: 900, font: 'cursive' },
+        { size: 70, weight: 900, font: 'cursive' },
         canvas.width / 2,
         795
       )
