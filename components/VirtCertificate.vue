@@ -53,6 +53,9 @@
     </div>
   </div>
 </template>
+ <style>
+@import url('https://fonts.googleapis.com/css2?family=Parisienne&display=swap');
+</style> 
 <script>
 import persons from '@/data/results.js'
 export default {
@@ -66,7 +69,7 @@ export default {
         paper_id: person.paper_id,
         organization: person.organization
           .split(' ')
-          .map((x) => this.capitalizeName(x, true))
+          .map((x) => this.capitalizeName(x))
           .join(' '),
         title: person.title
           .split(' ')
@@ -75,7 +78,7 @@ export default {
       }
       
     })
-//    console.log(newPersons.length)
+    console.log(newPersons)
     return {
       dropOpen: false,
       username: null,
@@ -118,13 +121,13 @@ export default {
       )
     },
     formatName(s) {
-      const m = `${s.replace(/\s([A-Z])\s/g, " $1. ").replace(/\s([A-Z])$/gi, " $1.").replace(/^([A-Z])\s/gi, "$1. ").replace(/([a-z][a-z])\. ([A-Z])/gi, "$1 $2.").replace(/\.([A-Z])\./gi, ". $1.").replace(/Dr\s/gi, "Dr. ").replace(/\.([A-Z])/gi, ". $1").replace(/\.\./gi, ".")}`
+      const m = `${s.replace(/\s([A-Z])\s/g, " $1. ").replace(/\s([A-Z])$/gi, " $1.").replace(/^([A-Z])\s/gi, "$1. ").replace(/([a-z][a-z])\. ([A-Z])\s/gi, "$1 $2. ").replace(/\.([A-Z])\./gi, ". $1.").replace(/Dr\s/gi, "Dr. ").replace(/\.([A-Z])/gi, ". $1").replace(/\.\./gi, ".")}`
       return m
     },
     getCanvasURL() {
       return this.canvasItem.toDataURL('image/png')
     },
-    applyText(canvas, text, base = 300, weight = 900, minus = 320, font = 'Merriweather') {
+    applyText(canvas, text, base = 300, weight = 900, minus = 320, font = 'Parisienne') {
       const ctx = canvas.getContext('2d')
 
       // Declare a base size of the font
@@ -138,7 +141,7 @@ export default {
         ctx.font = `${weight} ${(fontSize -= 10)}px ${
           `${font}` || 'cursive'
         }, Arial bold`
-        //        console.log(ctx.font)
+                console.log(ctx.font)
       } while (ctx.measureText(text).width > canvas.width - minus)
       //      console.log(ctx.font)
       return ctx.font
