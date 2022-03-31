@@ -118,7 +118,7 @@ export default {
     getCanvasURL() {
       return this.canvasItem.toDataURL('image/png')
     },
-    applyText(canvas, text, base = 300, weight = 900, font = 'Merriweather') {
+    applyText(canvas, text, base = 300, weight = 900, minus = 320, font = 'Merriweather') {
       const ctx = canvas.getContext('2d')
 
       // Declare a base size of the font
@@ -133,7 +133,7 @@ export default {
           `${font}` || 'cursive'
         }, Arial bold`
         //        console.log(ctx.font)
-      } while (ctx.measureText(text).width > canvas.width - 320)
+      } while (ctx.measureText(text).width > canvas.width - minus)
       //      console.log(ctx.font)
       return ctx.font
     },
@@ -153,7 +153,7 @@ export default {
         }
       }
     },
-    addText(canvas, text, font, x, y) {
+    addText(canvas, text, font, x, y, minus) {
       const ctx = this.canvasContext
 
       ctx.font = this.applyText(
@@ -161,6 +161,7 @@ export default {
         text.content,
         font.size,
         font.weight,
+        minus,
         font.font
       )
 
@@ -200,7 +201,7 @@ export default {
         },
         { size: 70, weight: 900, font: 'cursive' },
         canvas.width / 2 - 100,
-        560
+        560, 500
       )
       this.addText(
         canvas,
