@@ -206,7 +206,7 @@ export default {
         },
         { size: 70, weight: 900, font: 'cursive' },
         canvas.width / 2 - 100,
-        560, 500
+        560, 530
       )
       this.addText(
         canvas,
