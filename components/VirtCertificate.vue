@@ -20,12 +20,12 @@
           />
           <div :class="`${dropOpen ? 'block' : 'hidden'} overflow-y-scroll max-h-64 absolute z-40 flex flex-col w-full md:w-72 bg-gray-700 p-2`">
             <div
-              v-for="person in persons.filter(x => x.name.toLowerCase().includes(username ? username.toLowerCase() : ''))"
+              v-for="person in persons.filter(x => x.name.toLowerCase().includes(username ? username.toLowerCase() : '') || x.organization.toLowerCase().includes(username ? username.toLowerCase() : '') || x.paper_id.toString().toLowerCase().includes(username ? username.toLowerCase() : ''))"
               :key="person.name + person.paper_id"
               class="p-2 cursor-pointer transition duration-500 ease-in-out bg-gray-700 hover:bg-blue-700"
               @click="x => {setName(person);toggleOff()}"
             >
-              <span>{{person.name}}</span>
+              <span>{{person.paper_id}} - {{person.name}}</span>
             </div>
           </div>
         </div>
@@ -60,24 +60,31 @@
 import persons from '@/data/results.js'
 export default {
   data() {
-    const newPersons = persons.filter((x, i) => i === persons.indexOf(persons.find(y => y.name.toLowerCase() === x.name.toLowerCase()))).map((person) => {
-      return {
-        name: this.formatName(person.name)
-          .split(' ')
-          .map((x) => this.capitalizeName(x, true))
-          .join(' '),
-        paper_id: person.paper_id,
-        organization: person.organization
-          .split(' ')
-          .map((x) => this.capitalizeName(x))
-          .join(' '),
-        title: person.title
-          .split(' ')
-          .map((x) => this.capitalizeName(x, true))
-          .join(' '),
-      }
-      
-    })
+    const newPersons = persons
+      .filter(
+        (x, i) =>
+          i ===
+          persons.indexOf(
+            persons.find((y) => y.name.toLowerCase() === x.name.toLowerCase())
+          )
+      )
+      .map((person) => {
+        return {
+          name: this.formatName(person.name)
+            .split(' ')
+            .map((x) => this.capitalizeName(x, true))
+            .join(' '),
+          paper_id: person.paper_id,
+          organization: person.organization
+            .split(' ')
+            .map((x) => this.capitalizeName(x))
+            .join(' '),
+          title: person.title
+            .split(' ')
+            .map((x) => this.capitalizeName(x, true))
+            .join(' '),
+        }
+      })
     console.log(newPersons)
     return {
       dropOpen: false,
@@ -121,13 +128,28 @@ export default {
       )
     },
     formatName(s) {
-      const m = `${s.replace(/\s([A-Z])\s/g, " $1. ").replace(/\s([A-Z])$/gi, " $1.").replace(/^([A-Z])\s/gi, "$1. ").replace(/([a-z][a-z])\. ([A-Z])\s/gi, "$1 $2. ").replace(/\.([A-Z])\./gi, ". $1.").replace(/Dr\s/gi, "Dr. ").replace(/\.([A-Z])/gi, ". $1").replace(/\.\./gi, ".")}`
+      const m = `${s
+        .replace(/\s([A-Z])\s/g, ' $1. ')
+        .replace(/\s([A-Z])$/gi, ' $1.')
+        .replace(/^([A-Z])\s/gi, '$1. ')
+        .replace(/([a-z][a-z])\. ([A-Z])\s/gi, '$1 $2. ')
+        .replace(/\.([A-Z])\./gi, '. $1.')
+        .replace(/Dr\s/gi, 'Dr. ')
+        .replace(/\.([A-Z])/gi, '. $1')
+        .replace(/\.\./gi, '.')}`
       return m
     },
     getCanvasURL() {
       return this.canvasItem.toDataURL('image/png')
     },
-    applyText(canvas, text, base = 300, weight = 900, minus = 320, font = 'Parisienne') {
+    applyText(
+      canvas,
+      text,
+      base = 300,
+      weight = 900,
+      minus = 320,
+      font = 'Parisienne'
+    ) {
       const ctx = canvas.getContext('2d')
 
       // Declare a base size of the font
@@ -141,7 +163,7 @@ export default {
         ctx.font = `${weight} ${(fontSize -= 10)}px ${
           `${font}` || 'cursive'
         }, Arial bold`
-                console.log(ctx.font)
+        console.log(ctx.font)
       } while (ctx.measureText(text).width > canvas.width - minus)
       //      console.log(ctx.font)
       return ctx.font
@@ -150,7 +172,7 @@ export default {
       const canvas = this.canvasItem
       const ctx = this.canvasContext
       const background = new Image()
-      background.src = '/template.jpeg'
+      background.src = '/betterTemplate.jpg'
       background.onload = () => {
         const icon = new Image()
         icon.src = this.$icon(512)
@@ -173,6 +195,7 @@ export default {
         minus,
         font.font
       )
+      ctx.textBaseline = 'bottom'
 
       ctx.strokeStyle = text.border
       ctx.textAlign = text.align
@@ -196,9 +219,9 @@ export default {
           border: 'transparent',
           align: 'center',
         },
-        { size: 70, weight: 900, font: 'cursive' },
+        { size: 60, weight: 900, font: 'cursive' },
         canvas.width / 2 + 200,
-        500
+        515
       )
       this.addText(
         canvas,
@@ -208,9 +231,10 @@ export default {
           border: 'transparent',
           align: 'center',
         },
-        { size: 70, weight: 900, font: 'cursive' },
+        { size: 60, weight: 900, font: 'cursive' },
         canvas.width / 2 - 100,
-        560, 530
+        575,
+        625
       )
       this.addText(
         canvas,
@@ -220,9 +244,9 @@ export default {
           border: 'transparent',
           align: 'center',
         },
-        { size: 70, weight: 900, font: 'cursive' },
+        { size: 60, weight: 900, font: 'cursive' },
         canvas.width / 2,
-        795
+        815
       )
       this.canvasURL = this.getCanvasURL()
     },
