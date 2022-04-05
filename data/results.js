@@ -1463,9 +1463,9 @@ export default [
   },
   {
     "paper_id": "49",
-    "name": "Umamaheswari.R",
+    "name": "Umamaheswari R.",
     "organization":
-      "Vel Tech Rangarajan Dr.Sagunthala R & D Institute of Science and Technology",
+      "Veltech Dr. Rangarajan Dr. Sagunthala R & D Institute of Science and Technology",
     "title":
       "Crime And Missing Report Management System Using Machine Learning And Android Application",
   },
@@ -1473,7 +1473,7 @@ export default [
     "paper_id": "49",
     "name": "S.Shanmuga Priya",
     "organization":
-      "Veltech Hightech Dr.Rangarajan Dr. Sakunthala Engineering College",
+      "Veltech Hightech Dr. Rangarajan Dr. Sakunthala Engineering College",
     "title":
       "Crime And Missing Report Management System Using Machine Learning And Android Application",
   },
@@ -1481,7 +1481,7 @@ export default [
     "paper_id": "84",
     "name": "S.Nagendiran",
     "organization":
-      "Tech Multi Tech Dr. Rangarajan Dr. Sakunthala Engineering College",
+      "Veltech Multitech Dr. Rangarajan Dr. Sakunthala Engineering College",
     "title":
       "Recommending Merchandise by Fusing On-Line Product Scores and Objective Knowledge Supported Location",
   },
