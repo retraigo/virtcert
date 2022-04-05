@@ -116,25 +116,25 @@ export default [
   {
     "paper_id": "23",
     "name": "Chintala Vijaya Kumar",
-    "organization": "Audisankara College of engineering",
+    "organization": "Audisankara College of Engineering and Technology",
     "title": "Leaf disease detection using ensemble classification approach in machine learning"
   },
   {
     "paper_id": "23",
     "name": "Naguru Subramanyam",
-    "organization": "Audisankara College of engineering",
+    "organization": "Audisankara College of Engineering and Technology",
     "title": "Leaf disease detection using ensemble classification approach in machine learning"
   },
   {
     "paper_id": "23",
     "name": "Dr. M. Rajaiah",
-    "organization": "Audisankara College of engineering",
+    "organization": "Audisankara College of Engineering and Technology",
     "title": "Leaf disease detection using ensemble classification approach in machine learning"
   },
   {
     "paper_id": "23",
     "name": "Dr. P. Chandra Kanth",
-    "organization": "Audisankara College of engineering",
+    "organization": "Audisankara College of Engineering and Technology",
     "title": "Leaf disease detection using ensemble classification approach in machine learning"
   },
   {
@@ -146,25 +146,25 @@ export default [
   {
     "paper_id": "29",
     "name": "Naguru Subramanyam",
-    "organization": "Audisankara College of engineering",
+    "organization": "Audisankara College of Engineering and Technology",
     "title": "Image Diagnosis Using CNN Deep Learning Model"
   },
   {
     "paper_id": "29",
     "name": "Chintala Vijaya Kumar",
-    "organization": "Audisankara College of engineering",
+    "organization": "Audisankara College of Engineering and Technology",
     "title": "Image Diagnosis Using CNN Deep Learning Model"
   },
   {
     "paper_id": "29",
     "name": "Dr. M. Rajaiah",
-    "organization": "Audisankara College of engineering",
+    "organization": "Audisankara College of Engineering and Technology",
     "title": "Image Diagnosis Using CNN Deep Learning Model"
   },
   {
     "paper_id": "29",
     "name": "Dr. P. Chandra kanth",
-    "organization": "Audisankara College of engineering",
+    "organization": "Audisankara College of Engineering and Technology",
     "title": "Image Diagnosis Using CNN Deep Learning Model"
   },
   {
@@ -770,7 +770,7 @@ export default [
   {
     "paper_id": "127",
     "name": "Karthiganesh Durai",
-    "organization": "Manakula Vinayagar Institute of Technology",
+    "organization": "DELL Technologies",
     "title": "Remote Sensing of Urbanization using Machine Learning"
   },
   {

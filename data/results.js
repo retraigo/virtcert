@@ -7,7 +7,7 @@ export default [
   },
   {
     "paper_id": "6",
-    "name": "K.Ashok Kumar",
+    "name": "Dr. K.Ashok Kumar",
     "organization": "Sathyabama Institute of Science and Technology",
     "title": "Intelligent And Efficient Deep Learning Model For Lane Change Prediction"
   },
@@ -19,7 +19,7 @@ export default [
   },
   {
     "paper_id": "12",
-    "name": "P.Ramani",
+    "name": "Dr.P.Ramani",
     "organization": "SRM Institute of Science and Technology,Ramapuram",
     "title": "Image Based Visual Servoing For Tele-Operated Ground Vehicle"
   },
@@ -43,7 +43,7 @@ export default [
   },
   {
     "paper_id": "13",
-    "name": "Rahamathunnisa U",
+    "name": "Dr Rahamathunnisa U",
     "organization": "Vellore Institute of Technology",
     "title": "A Survey On Abnormal Detection In Video Surveillances"
   },
@@ -55,7 +55,7 @@ export default [
   },
   {
     "paper_id": "15",
-    "name": "S. Thaddeus",
+    "name": "Dr. S. Thaddeus",
     "organization": "Don Bosco College (Co-Ed), Yelagiri Hills",
     "title": "A new secure mapping scheme on elliptic curve cryptography for internet of things"
   },
@@ -73,7 +73,7 @@ export default [
   },
   {
     "paper_id": "16",
-    "name": "Radhakrishnan P",
+    "name": "Dr. Radhakrishnan P",
     "organization": "Don Bosco College (Co-Ed), Yelagiri Hills ",
     "title": "Adaptive Framework and Efficient Algorithm to Improve the Quality of Service in the Internet of Things"
   },
@@ -127,13 +127,13 @@ export default [
   },
   {
     "paper_id": "23",
-    "name": "M. Rajaiah",
+    "name": "Dr. M. Rajaiah",
     "organization": "Audisankara College of Engineering and Technology",
     "title": "Leaf disease detection using ensemble classification approach in machine learning"
   },
   {
     "paper_id": "23",
-    "name": "P. Chandra Kanth",
+    "name": "Dr. P. Chandra Kanth",
     "organization": "Audisankara College of Engineering and Technology",
     "title": "Leaf disease detection using ensemble classification approach in machine learning"
   },
@@ -157,13 +157,13 @@ export default [
   },
   {
     "paper_id": "29",
-    "name": "M. Rajaiah",
+    "name": "Dr. M. Rajaiah",
     "organization": "Audisankara College of Engineering and Technology",
     "title": "Image Diagnosis Using CNN Deep Learning Model"
   },
   {
     "paper_id": "29",
-    "name": "P. Chandra kanth",
+    "name": "Dr. P. Chandra kanth",
     "organization": "Audisankara College of Engineering and Technology",
     "title": "Image Diagnosis Using CNN Deep Learning Model"
   },
@@ -175,43 +175,43 @@ export default [
   },
   {
     "paper_id": "30",
-    "name": "M.Kavitha",
+    "name": "Dr.M.Kavitha",
     "organization": "Vel Tech Rangarajan Dr.Sagunthala R&D Institute of Science and Technology",
     "title": "DenseNet-121 Architecture for Plant leaf Disease Classification"
   },
   {
     "paper_id": "30",
-    "name": "M.Suganthy",
+    "name": "Dr.M.Suganthy",
     "organization": "Vel Tech Rangarajan Dr.Sagunthala R&D Institute of Science and Technology",
     "title": "DenseNet-121 Architecture for Plant leaf Disease Classification"
   },
   {
     "paper_id": "30",
-    "name": "R.Srinivasan",
+    "name": "Dr.R.Srinivasan",
     "organization": "Vel Tech Rangarajan Dr.Sagunthala R&D Institute of Science and Technology",
     "title": "DenseNet-121 Architecture for Plant leaf Disease Classification"
   },
   {
     "paper_id": "30",
-    "name": "R.Kavitha",
+    "name": "Dr.R.Kavitha",
     "organization": "Vel Tech Rangarajan Dr.Sagunthala R&D Institute of Science and Technology",
     "title": "DenseNet-121 Architecture for Plant leaf Disease Classification"
   },
   {
     "paper_id": "33",
-    "name": "Senthil Kumar P",
+    "name": "Dr. Senthil Kumar P",
     "organization": "School of Information Technology & Engineering, Vellore Institute of Technology, Vellore",
     "title": "Prediction of Air Quality Pollutants using Artificial Intelligence Techniques: A Review"
   },
   {
     "paper_id": "33",
-    "name": "Siva Sankari S",
+    "name": "Dr. Siva Sankari S",
     "organization": "Sreenivasa Institute of Technology and Management Studies, Chittoor",
     "title": "Prediction of Air Quality Pollutants using Artificial Intelligence Techniques: A Review"
   },
   {
     "paper_id": "36",
-    "name": "SHARON SUSAN JACOB",
+    "name": "Dr. SHARON SUSAN JACOB",
     "organization": "Mahatma Gandhi University",
     "title": "A Deep Feature Fusion Model Using Transfer Learning for Effective Detection of COVID-19 Infected Chest X-ray Images"
   },
@@ -325,7 +325,7 @@ export default [
   },
   {
     "paper_id": "48",
-    "name": "R. Kaladevi",
+    "name": "Dr. R. Kaladevi",
     "organization": "Saveetha Engineering College",
     "title": "Mental health tracker using machine learning"
   },
@@ -355,7 +355,7 @@ export default [
   },
   {
     "paper_id": "54",
-    "name": "P Sri Jothi",
+    "name": "Dr. P Sri Jothi",
     "organization": "Vels Institute of science technology and advanced studies",
     "title": "Study On The Effectiveness Of Ai Technology In Agriculture Among Farmers In Tamil Nadu"
   },
@@ -367,13 +367,13 @@ export default [
   },
   {
     "paper_id": "59",
-    "name": "Vinu S",
+    "name": "Mr. Vinu S",
     "organization": "St. Joseph's College of Engineering",
     "title": "Integrating Blockchain and IoT using Dew Computing and Light Weight Election Based Consensus for Smart City"
   },
   {
     "paper_id": "59",
-    "name": "Diwan B",
+    "name": "Dr. Diwan B",
     "organization": "St. Joseph's College of Engineering",
     "title": "Integrating Blockchain and IoT using Dew Computing and Light Weight Election Based Consensus for Smart City"
   },
@@ -385,7 +385,7 @@ export default [
   },
   {
     "paper_id": "60",
-    "name": "R. Parameswari",
+    "name": "Dr. R. Parameswari",
     "organization": "Vels Institute of Science, Technology & Advanced Studies ",
     "title": "Comprehensive Review on DDoS Attack Prevention in Cloud Environment"
   },
@@ -397,7 +397,7 @@ export default [
   },
   {
     "paper_id": "62",
-    "name": "C. Victoria Priscilla",
+    "name": "Dr. C. Victoria Priscilla",
     "organization": "SDNB Vaishnav College for Women",
     "title": "Estimation Of Optimal Threshold Shifting To Handle Class Imbalance In Credit Card Fraud Detection Using Machine Learning Techniques"
   },
@@ -409,13 +409,13 @@ export default [
   },
   {
     "paper_id": "65",
-    "name": "B.GOPALAKRISHNAN",
+    "name": "Dr.B.GOPALAKRISHNAN",
     "organization": "Bannari Amman Institute Of Technology Erode",
     "title": "Optimized ensemble clustering technique to detect the fake news in social media"
   },
   {
     "paper_id": "65",
-    "name": "S.LOGESWARI",
+    "name": "Dr.S.LOGESWARI",
     "organization": "Bannari Amman Institute Of Technology Erode",
     "title": "Optimized ensemble clustering technique to detect the fake news in social media"
   },
@@ -451,7 +451,7 @@ export default [
   },
   {
     "paper_id": "67",
-    "name": "J. Visumathi",
+    "name": "Dr.J. Visumathi",
     "organization": "Veltech Rangarajan Dr.Sagunthala R&D Institute of Science and Technology",
     "title": "An Intelligent Model for early prognosis of Heart Illness"
   },
@@ -481,7 +481,7 @@ export default [
   },
   {
     "paper_id": "70",
-    "name": "R.Kaladevi",
+    "name": "Dr.R.Kaladevi",
     "organization": "Saveetha Engineering College",
     "title": "Post Covid Sequelae Monitoring and Tapering Oxygen Supply Using Neural Networks"
   },
@@ -493,7 +493,7 @@ export default [
   },
   {
     "paper_id": "75",
-    "name": "C.ANNA PALAGAN",
+    "name": "Dr.C.ANNA PALAGAN",
     "organization": "Teegala Krishna Reddy Engineering College",
     "title": "Mammogram Classification Using Convolutional Neural Network Segmentation By Dual-Interface Articulation Architecture"
   },
@@ -505,31 +505,31 @@ export default [
   },
   {
     "paper_id": "76",
-    "name": "P. SRI JOTHI",
+    "name": "DR. P. SRI JOTHI",
     "organization": "Vels Institute Of Science, Technology And Advance Studies",
     "title": "The Effect Of Health Communication On Using Garbha Mobile Application For Maternity"
   },
   {
     "paper_id": "78",
-    "name": "K.M.V MADAN KUMAR",
+    "name": "Dr. K.M.V MADAN KUMAR",
     "organization": "Teegala Krishna Reddy Engineering College",
     "title": "Deep Learning Models For Early Warning Of Extreme Geohazards"
   },
   {
     "paper_id": "78",
-    "name": "N. VADIVELAN",
+    "name": "Dr. N. VADIVELAN",
     "organization": "Teegala Krishna Reddy Engineering College",
     "title": "Deep Learning Models For Early Warning Of Extreme Geohazards"
   },
   {
     "paper_id": "78",
-    "name": "K. BHARGAVI",
+    "name": "Dr. K. BHARGAVI",
     "organization": "Teegala Krishna Reddy Engineering College",
     "title": "Deep Learning Models For Early Warning Of Extreme Geohazards"
   },
   {
     "paper_id": "79",
-    "name": "S Saranya",
+    "name": "Dr S Saranya",
     "organization": "Easwari Engineering College",
     "title": "Raspberry Pi Based Portable Hand Gesture To Voice Translation Device"
   },
@@ -547,19 +547,19 @@ export default [
   },
   {
     "paper_id": "80",
-    "name": "Gouri Shashank Deo",
+    "name": "Miss Gouri Shashank Deo",
     "organization": "Amity University Mumbai, Maharashtra",
     "title": "A Survey On Bone Fracture Methods Using Image Processing and Artificial Intelligence (AI) Approaches"
   },
   {
     "paper_id": "80",
-    "name": "Jyas Totlani",
+    "name": "Mr. Jyas Totlani",
     "organization": "Amity University Mumbai, Maharashtra",
     "title": "A Survey On Bone Fracture Methods Using Image Processing and Artificial Intelligence (AI) Approaches"
   },
   {
     "paper_id": "80",
-    "name": "Chaitanya Mahamuni",
+    "name": "Mr. Chaitanya Mahamuni",
     "organization": "Amrita Vishwa Vidyapeetham",
     "title": "A Survey On Bone Fracture Methods Using Image Processing and Artificial Intelligence (AI) Approaches"
   },
@@ -589,7 +589,7 @@ export default [
   },
   {
     "paper_id": "85",
-    "name": "Lakshmi Kanthan Narayanan",
+    "name": "Dr.Lakshmi Kanthan Narayanan",
     "organization": "Saranathan College of Engineering",
     "title": "Facial Emotion Recognition System Using VGG Neural Network"
   },
@@ -601,25 +601,25 @@ export default [
   },
   {
     "paper_id": "85",
-    "name": "Aravind Prasad Baskaran",
+    "name": "Mr.Aravind Prasad Baskaran",
     "organization": "Saranathan College of Engineering",
     "title": "Facial Emotion Recognition System Using VGG Neural Network"
   },
   {
     "paper_id": "85",
-    "name": "Senthil Balaji Venkatachalam",
+    "name": "Mr. Senthil Balaji Venkatachalam",
     "organization": "Saranathan College of Engineering",
     "title": "Facial Emotion Recognition System Using VGG Neural Network"
   },
   {
     "paper_id": "85",
-    "name": "Rengaraj alias Muralidharan Ramanujam",
+    "name": "Mr.Rengaraj alias Muralidharan Ramanujam",
     "organization": "Saranathan College of Engineering",
     "title": "Facial Emotion Recognition System Using VGG Neural Network"
   },
   {
     "paper_id": "86",
-    "name": "S Prayla Shyry",
+    "name": "Dr S Prayla Shyry",
     "organization": "Sathyabama Institute of science and technology",
     "title": "Novel Machine Learning Approach For Weapon Detection"
   },
@@ -649,7 +649,7 @@ export default [
   },
   {
     "paper_id": "97",
-    "name": "Lakshmi Kanthan Narayanan",
+    "name": "Dr. Lakshmi Kanthan Narayanan",
     "organization": "Saranathan College of Engineering",
     "title": "Comparative Study On Ontology Matching Tools And Methods"
   },
@@ -673,68 +673,68 @@ export default [
   },
   {
     "paper_id": "97",
-    "name": "Lakshmi Kanthan Narayanan",
+    "name": "Dr. Lakshmi Kanthan Narayanan",
     "organization": "Saranathan College of Engineering",
     "title": "Comparative Study On Ontology Matching Tools And Methods"
   },
   {
     "paper_id": "120",
     "name": "Charumathi.M",
-    "organization": "M.G.R Educational and Research Institute",
+    "organization": "Dr.M.G.R Educational and Research Institute",
     "title": "Deep Learning Based Object Detection Improvement For  Leaf Disease Prediction Using Android Application"
   },
   {
     "paper_id": "120",
     "name": "Arunkumar.S",
-    "organization": "M.G.R Educational and Research Institute",
+    "organization": "Dr.M.G.R Educational and Research Institute",
     "title": "Deep Learning Based Object Detection Improvement For  Leaf Disease Prediction Using Android Application"
   },
   {
     "paper_id": "120",
     "name": "Mithilesh.K.N",
-    "organization": "M.G.R Educational and Research Institute",
+    "organization": "Dr.M.G.R Educational and Research Institute",
     "title": "Deep Learning Based Object Detection Improvement For  Leaf Disease Prediction Using Android Application"
   },
   {
     "paper_id": "120",
-    "name": "Dahlia Sam",
-    "organization": "M.G.R Educational and Research Institute",
+    "name": "Dr.Dahlia Sam",
+    "organization": "Dr.M.G.R Educational and Research Institute",
     "title": "Deep Learning Based Object Detection Improvement For  Leaf Disease Prediction Using Android Application"
   },
   {
     "paper_id": "120",
     "name": "M.A.Vishal",
-    "organization": "M.G.R Educational and Research Institute",
+    "organization": "Dr.M.G.R Educational and Research Institute",
     "title": "Deep Learning Based Object Detection Improvement For  Leaf Disease Prediction Using Android Application"
   },
   {
     "paper_id": "120",
     "name": "MITHILESH K.N",
-    "organization": "MGR Educational And Research Institute",
+    "organization": "Dr. MGR Educational And Research Institute",
     "title": "Deep Learning Based Object Detection Improvement For  Leaf Disease Prediction Using Android Application"
   },
   {
     "paper_id": "120",
     "name": "ARUN KUMAR.S",
-    "organization": "M.G.R Educational and Research Institute",
+    "organization": "Dr. M.G.R Educational and Research Institute",
     "title": "Deep Learning Based Object Detection Improvement For  Leaf Disease Prediction Using Android Application"
   },
   {
     "paper_id": "120",
     "name": "M.CHARUMATHI",
-    "organization": "M.G.R Educational and Research Institute",
+    "organization": "Dr. M.G.R Educational and Research Institute",
     "title": "Deep Learning Based Object Detection Improvement For  Leaf Disease Prediction Using Android Application"
   },
   {
     "paper_id": "120",
-    "name": "DHALIA SAM",
-    "organization": "M.G.R Educational and Research Institute",
+    "name": "Dr.DHALIA SAM",
+    "organization": "Dr. M.G.R Educational and Research Institute",
     "title": "Deep Learning Based Object Detection Improvement For  Leaf Disease Prediction Using Android Application"
   },
   {
     "paper_id": "120",
     "name": "M.A.VISHAL",
-    "organization": "M.G.R Educational and Research Institute",
+    "organization": "Dr. M.G.R Educational and Research Institute",
     "title": "Deep Learning Based Object Detection Improvement For  Leaf Disease Prediction Using Android Application"
   },
   {
@@ -781,13 +781,13 @@ export default [
   },
   {
     "paper_id": "132",
-    "name": "S. SARANYA",
+    "name": "Dr. S. SARANYA",
     "organization": "Easwari Engineering College",
     "title": "Melanoma skin cancer detection using MFFN classifier"
   },
   {
     "paper_id": "132",
-    "name": "M. DEVARAJU",
+    "name": "Dr. M. DEVARAJU",
     "organization": "Easwari Engineering College",
     "title": "Melanoma skin cancer detection using MFFN classifier"
   },
@@ -805,7 +805,7 @@ export default [
   },
   {
     "paper_id": "134",
-    "name": "Amuthabala",
+    "name": "Dr. Amuthabala",
     "organization": "REVA University",
     "title": "Hand Hygiene Compliance Monitoring System in Neonatal Intensive Care Unit"
   },
@@ -829,7 +829,7 @@ export default [
   },
   {
     "paper_id": "135",
-    "name": "G.UMARANI SRIKANTH",
+    "name": "Dr.G.UMARANI SRIKANTH",
     "organization": "Bharath Institute of Higher Education and Research",
     "title": "An Efficacy Based Approach to Incomplete Data Stream Anonymization in Distributed Environment"
   },
@@ -895,31 +895,31 @@ export default [
   },
   {
     "paper_id": "151",
-    "name": "RAJEEV SHRIVASTAVA",
+    "name": "Dr. RAJEEV SHRIVASTAVA",
     "organization": " Princeton Institute of Engineering and Technology for Women Hyderabad, India",
     "title": "A Deep Learning Based Design For Speech Signal Deepfake Generation And Detection"
   },
   {
     "paper_id": "151",
-    "name": "Mallika Jain",
+    "name": "Mrs Mallika Jain",
     "organization": "Kalaniketan Polytechnic College Jabalpur, India",
     "title": "A Deep Learning Based Design For Speech Signal Deepfake Generation And Detection"
   },
   {
     "paper_id": "151",
-    "name": "Garima Tiwari",
+    "name": "Mrs. Garima Tiwari",
     "organization": "Jabalpur Engineering College, Jabalpur, India",
     "title": "A Deep Learning Based Design For Speech Signal Deepfake Generation And Detection"
   },
   {
     "paper_id": "151",
-    "name": "Sanjay Kumar Gupta",
+    "name": "Mr.Sanjay Kumar Gupta",
     "organization": "MATS UNIVERSITY, Raipur (Chhattisgarh) 493441, India",
     "title": "A Deep Learning Based Design For Speech Signal Deepfake Generation And Detection"
   },
   {
     "paper_id": "151",
-    "name": "ANKITA NIGAM",
+    "name": "Dr, ANKITA NIGAM",
     "organization": "Princeton Institute of Engineering and Technology for Women Hyderabad, India",
     "title": "A Deep Learning Based Design For Speech Signal Deepfake Generation And Detection"
   },
@@ -931,19 +931,19 @@ export default [
   },
   {
     "paper_id": "152",
-    "name": "R . BALASUBRAMANIAN",
+    "name": "Dr. R . BALASUBRAMANIAN",
     "organization": "Manonmaniam Sundaranar University",
     "title": "A Review on AI Methods for Diagnosing Covid Variants using Radiology Imaging."
   },
   {
     "paper_id": "153",
-    "name": "Archana Chaudhary",
+    "name": "Dr. Archana Chaudhary",
     "organization": "Shree Guru Gobind Singh Tricentenary University",
     "title": "An assessment of environmental sustainability of plastic in agriculture"
   },
   {
     "paper_id": "153",
-    "name": "Bhoopesh K. Sharma",
+    "name": "Dr Bhoopesh K. Sharma",
     "organization": "Shree Guru Gobind Singh Tricentenary University",
     "title": "An assessment of environmental sustainability of plastic in agriculture"
   },
@@ -1015,7 +1015,7 @@ export default [
   },
   {
     "paper_id": "159",
-    "name": "S. Priyadarsini",
+    "name": "Dr. S. Priyadarsini",
     "organization": "P.S.R.Engineering College-Sivakasi",
     "title": "Medical Image Segmentation Using Unet Algorithm"
   },
@@ -1045,13 +1045,13 @@ export default [
   },
   {
     "paper_id": "160",
-    "name": "Shiny Duela",
+    "name": "Dr.Shiny Duela",
     "organization": "SRM Institute of Science and Technology, Ramapuram",
     "title": "A Face Recognition Based Attendance System For Classroom Environment"
   },
   {
     "paper_id": "163",
-    "name": "J.PRIYADARSHINI",
+    "name": "Dr.J.PRIYADARSHINI",
     "organization": "Vellore Institute of Technology,Chennai",
     "title": "Analysis of Word Embedding and Classifier Models in Legal Analytics"
   },
@@ -1063,7 +1063,7 @@ export default [
   },
   {
     "paper_id": "163",
-    "name": "J.Priyadarshini",
+    "name": "Dr.J.Priyadarshini",
     "organization": "Vellore Institute of Technology,Chennai",
     "title": "Analysis of Word Embedding and Classifier Models in Legal Analytics"
   },
@@ -1117,13 +1117,13 @@ export default [
   },
   {
     "paper_id": "175",
-    "name": "P.Marish Kumar",
+    "name": "Dr.P.Marish Kumar",
     "organization": "Easwari Engineering College",
     "title": "Image Fusion Using Symlet Transform"
   },
   {
     "paper_id": "179",
-    "name": "C.Valliyammai",
+    "name": "Dr.C.Valliyammai",
     "organization": "MIT Campus, Anna University",
     "title": "Bursty Event Detection using Deep Learning based on Social Media Data"
   },
@@ -1135,7 +1135,7 @@ export default [
   },
   {
     "paper_id": "179",
-    "name": "D.Manikandan",
+    "name": "Mr.D.Manikandan",
     "organization": "MIT Campus, Anna University",
     "title": "Bursty Event Detection using Deep Learning based on Social Media Data"
   },
@@ -1159,7 +1159,7 @@ export default [
   },
   {
     "paper_id": "194",
-    "name": "A. Pravin",
+    "name": "DR. A. Pravin",
     "organization": "Sathyabama Institute of science and Technology",
     "title": "Loan Approval Prediction Using Supervised Learning Algorithm"
   },
@@ -1231,13 +1231,13 @@ export default [
   },
   {
     "paper_id": "214",
-    "name": "K Venkata Murali Mohan",
+    "name": "Dr K Venkata Murali Mohan",
     "organization": "Jawaharlal Nehru Technical University Hyderabad",
     "title": "Grey Hole Attack In Mobile Ad-Hoc Network Mitigation And Protection"
   },
   {
     "paper_id": "214",
-    "name": "V krishna",
+    "name": "Dr V krishna",
     "organization": "TKR College Of Engineering & Technology",
     "title": "Grey Hole Attack In Mobile Ad-Hoc Network Mitigation And Protection"
   },
@@ -1249,7 +1249,7 @@ export default [
   },
   {
     "paper_id": "215",
-    "name": "K. M. Anandkumar",
+    "name": "Dr. K. M. Anandkumar",
     "organization": "Easwari Engineering College",
     "title": "A Comprehensive Review Of Text Summarisation"
   },
@@ -1267,13 +1267,13 @@ export default [
   },
   {
     "paper_id": "217",
-    "name": "Sandhya P",
+    "name": "Dr. Sandhya P",
     "organization": "Vellore Institute of Technology, Chennai Campus",
     "title": "Diagnosis and treatment of attention deficit hyperactivity disorder using artificial  intelligence"
   },
   {
     "paper_id": "217",
-    "name": "Vani V",
+    "name": "Dr. Vani V",
     "organization": "Vellore Institute of Technology, Chennai Campus",
     "title": "Diagnosis and treatment of attention deficit hyperactivity disorder using artificial  intelligence"
   },
@@ -1291,13 +1291,13 @@ export default [
   },
   {
     "paper_id": "218",
-    "name": "P. Ezhumalai",
+    "name": "Dr. P. Ezhumalai",
     "organization": "R. M. D Engineering College",
     "title": "Equipping the Medical Images for Medical Diagnosis"
   },
   {
     "paper_id": "219",
-    "name": "Sandhya P",
+    "name": "Dr. Sandhya P",
     "organization": "Vellore Institute of Technology, Chennai Campus ",
     "title": "Deep learning-based object detection and counting in tomato fields"
   },
@@ -1309,7 +1309,7 @@ export default [
   },
   {
     "paper_id": "219",
-    "name": "Vani V",
+    "name": "Dr. Vani V",
     "organization": "Vellore Institute of Technology, Chennai Campus ",
     "title": "Deep learning-based object detection and counting in tomato fields"
   },
@@ -1321,7 +1321,7 @@ export default [
   },
   {
     "paper_id": "220",
-    "name": "SHAJI P THOMAS",
+    "name": "Dr. SHAJI P THOMAS",
     "organization": "Bishop Abraham memorial college,Thuruthicad ",
     "title": "Influence of acid treated rice husk ash on the mechanical properties of natural rubber in comparison with carbon black"
   },
@@ -1333,7 +1333,7 @@ export default [
   },
   {
     "paper_id": "221",
-    "name": "M.Abirami",
+    "name": "Dr.M.Abirami",
     "organization": "Annamalai University",
     "title": "Dynamic Approach for Optimal Battery Management of BEV"
   },
