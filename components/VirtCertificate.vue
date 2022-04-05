@@ -65,7 +65,7 @@ export default {
         (x, i) =>
           i ===
           persons.indexOf(
-            persons.find((y) => y.name.toLowerCase() === x.name.toLowerCase() || y.paper_id.toLowerCase() === x.paper_id.toLowerCase())
+            persons.find((y) => y.name.toLowerCase() === x.name.toLowerCase() && y.paper_id.toLowerCase() === x.paper_id.toLowerCase())
           )
       )
       .map((person) => {
