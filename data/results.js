@@ -176,25 +176,25 @@ export default [
   {
     "paper_id": "30",
     "name": "Dr.M.Kavitha",
-    "organization": "Vel Tech Rangarajan Dr.Sagunthala R&D Institute of Science and Technology",
+    "organization": "Vel Tech Dr. Rangarajan Dr. Sagunthala R&D Institute of Science and Technology",
     "title": "DenseNet-121 Architecture for Plant leaf Disease Classification"
   },
   {
     "paper_id": "30",
     "name": "Dr.M.Suganthy",
-    "organization": "Vel Tech Rangarajan Dr.Sagunthala R&D Institute of Science and Technology",
+    "organization": "Vel Tech Multitech Dr. Rangarajan Dr. Sagunthala Engineering College",
     "title": "DenseNet-121 Architecture for Plant leaf Disease Classification"
   },
   {
     "paper_id": "30",
     "name": "Dr.R.Srinivasan",
-    "organization": "Vel Tech Rangarajan Dr.Sagunthala R&D Institute of Science and Technology",
+    "organization": "Vel Tech Dr. Rangarajan Dr. Sagunthala R&D Institute of Science and Technology",
     "title": "DenseNet-121 Architecture for Plant leaf Disease Classification"
   },
   {
     "paper_id": "30",
     "name": "Dr.R.Kavitha",
-    "organization": "Vel Tech Rangarajan Dr.Sagunthala R&D Institute of Science and Technology",
+    "organization": "Vel Tech Dr. Rangarajan Dr. Sagunthala R&D Institute of Science and Technology",
     "title": "DenseNet-121 Architecture for Plant leaf Disease Classification"
   },
   {
@@ -566,7 +566,7 @@ export default [
   {
     "paper_id": "84",
     "name": "S.Nagendiran",
-    "organization": "Veltech Multitech Dr. Rangarajan Dr. Sakunthala Engineering College",
+    "organization": "Veltech Multitech Dr. Rangarajan Dr. Sagunthala Engineering College",
     "title": "Recommending Merchandise by Fusing On-Line Product Scores and Objective Knowledge Supported Location"
   },
   {
