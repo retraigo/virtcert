@@ -65,7 +65,7 @@ export default {
         (x, i) =>
           i ===
           persons.indexOf(
-            persons.find((y) => y.name.toLowerCase() === x.name.toLowerCase())
+            persons.find((y) => y.name.toLowerCase() === x.name.toLowerCase() || y.paper_id.toLowerCase() === x.paper_id.toLowerCase())
           )
       )
       .map((person) => {
@@ -81,7 +81,7 @@ export default {
             .join(' '),
           title: person.title
             .split(' ')
-            .map((x) => this.capitalizeName(x, true))
+            .map((x) => this.capitalizeName(x))
             .join(' '),
         }
       })
