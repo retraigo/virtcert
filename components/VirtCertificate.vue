@@ -217,7 +217,7 @@ export default {
           border: 'transparent',
           align: 'center',
         },
-        { size: 60, weight: 900, font: 'cursive' },
+        { size: 62, weight: 900, font: 'cursive' },
         canvas.width / 2 + 200,
         510
       )
@@ -229,7 +229,7 @@ export default {
           border: 'transparent',
           align: 'center',
         },
-        { size: 60, weight: 900, font: 'cursive' },
+        { size: 62, weight: 900, font: 'cursive' },
         canvas.width / 2 - 100,
         570,
         625
@@ -242,9 +242,10 @@ export default {
           border: 'transparent',
           align: 'center',
         },
-        { size: 60, weight: 900, font: 'cursive' },
+        { size: 62, weight: 900, font: 'cursive' },
         canvas.width / 2,
-        808
+        808,
+        100
       )
       this.canvasURL = this.getCanvasURL()
     },
