@@ -219,7 +219,7 @@ export default {
         },
         { size: 60, weight: 900, font: 'cursive' },
         canvas.width / 2 + 200,
-        515
+        510
       )
       this.addText(
         canvas,
@@ -231,7 +231,7 @@ export default {
         },
         { size: 60, weight: 900, font: 'cursive' },
         canvas.width / 2 - 100,
-        575,
+        570,
         625
       )
       this.addText(
@@ -244,7 +244,7 @@ export default {
         },
         { size: 60, weight: 900, font: 'cursive' },
         canvas.width / 2,
-        812
+        808
       )
       this.canvasURL = this.getCanvasURL()
     },
