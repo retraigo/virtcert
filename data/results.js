@@ -1424,8 +1424,8 @@ export default [
     "title":
       "Analysis on the Execution measures of the Queuing in Radar Data Connection",
   },
-  { "paper_id": "", "name": "", "organization": "", "title": "" },
-  { "paper_id": "", "name": "", "organization": "", "title": "" },
+  { "paper_id": "59", "name": "Mr. Vinu S", "organization": "St. Joseph's College of Engineering", "title": "Integrating Blockchain and IoT using Dew Computing and Light Weight Election Based Consensus for Smart City" },
+  { "paper_id": "59", "name": "Dr. Diwan B", "organization": "St. Joseph's College of Engineering", "title": "Integrating Blockchain and IoT using Dew Computing and Light Weight Election Based Consensus for Smart City" },
   {
     "paper_id": "169",
     "name": "R.M.Bhavadharini",
