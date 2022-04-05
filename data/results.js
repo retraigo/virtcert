@@ -300,6 +300,36 @@ export default [
     "title": "A Framework For Automatic Detection Of Learning Styles In E-Learning"
   },
   {
+    "paper_id": "47",
+    "name": "Dr. P. Chandra kanth",
+    "organization": "Audisankara College of Engineering and Technology",
+    "title": "Reduced Plaintext for Ciphers (RPC) Algorithm"
+  },
+  {
+    "paper_id": "47",
+    "name": "Mr. Ummadi Thirupalu",
+    "organization": "Audisankara College of Engineering and Technology",
+    "title": "Reduced Plaintext for Ciphers (RPC) Algorithm"
+  },
+  {
+    "paper_id": "47",
+    "name": "Dr. Suresh Babu Jugunta",
+    "organization": "Narayana Engineering College, Nellore",
+    "title": "Reduced Plaintext for Ciphers (RPC) Algorithm"
+  },
+  {
+    "paper_id": "47",
+    "name": "Mr. Chintala Vijay Kumar",
+    "organization": "Audisankara College of Engineering and Technology",
+    "title": "Reduced Plaintext for Ciphers (RPC) Algorithm"
+  },
+  {
+    "paper_id": "47",
+    "name": "Naguru Subramanyam",
+    "organization": "Audisankara College of Engineering and Technology",
+    "title": "Reduced Plaintext for Ciphers (RPC) Algorithm"
+  },
+  {
     "paper_id": "48",
     "name": "Sushiridha A",
     "organization": "Saveetha Engineering College",
@@ -388,6 +418,18 @@ export default [
     "name": "Dr. R. Parameswari",
     "organization": "Vels Institute of Science, Technology & Advanced Studies ",
     "title": "Comprehensive Review on DDoS Attack Prevention in Cloud Environment"
+  },
+  {
+    "paper_id": "61",
+    "name": "S. Priya",
+    "organization": "SRM Institute of Science and Technology, Ramapuram",
+    "title": "Analyzing The Performance Of Various Intrusion Detection Datasets Using Deep Learning Model"
+  },
+  {
+    "paper_id": "61",
+    "name": "Dr. K. Pradeep Mohan Kumar",
+    "organization": "SRM Institute of Science and Technology, Ramapuram",
+    "title": "Analyzing The Performance Of Various Intrusion Detection Datasets Using Deep Learning Model"
   },
   {
     "paper_id": "62",
