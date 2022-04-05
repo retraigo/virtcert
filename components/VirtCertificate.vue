@@ -85,7 +85,6 @@ export default {
             .join(' '),
         }
       })
-    console.log(newPersons)
     return {
       dropOpen: false,
       username: null,
@@ -162,10 +161,9 @@ export default {
         //        )
         ctx.font = `${weight} ${(fontSize -= 10)}px ${
           `${font}` || 'cursive'
-        }, Arial bold`
-        console.log(ctx.font)
+        }`
       } while (ctx.measureText(text).width > canvas.width - minus)
-      //      console.log(ctx.font)
+            console.log(ctx.font)
       return ctx.font
     },
     loadCert() {
@@ -246,7 +244,7 @@ export default {
         },
         { size: 60, weight: 900, font: 'cursive' },
         canvas.width / 2,
-        815
+        812
       )
       this.canvasURL = this.getCanvasURL()
     },
