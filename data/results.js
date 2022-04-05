@@ -605,7 +605,7 @@ export default [
   },
   {
     "paper_id": "158",
-    "name": "M. Revathy",
+    "name": "M. Revathi",
     "organization": "St. Joseph's Institute of Technology",
     "title":
       "Probabilistic Techniques For Location Based Services Using Computational Intelligence",
