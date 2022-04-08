@@ -12,6 +12,7 @@
 </template>
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 </style>
 <script>
 export default {

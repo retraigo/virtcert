@@ -157,10 +157,10 @@ export default {
       do {
         // Assign the font to the context and decrement it so it can be measured again
         //        console.log(
-        //          `${(fontSize -= 10)}px ${`${font}` || 'cursive'}, Arial bold`
+        //          `${(fontSize -= 10)}px ${`${font}` || '"Allura", cursive'}, Arial bold`
         //        )
         ctx.font = `${weight} ${(fontSize -= 10)}px ${
-          `${font}` || 'cursive'
+          `${font}` || '"Allura", cursive'
         }`
       } while (ctx.measureText(text).width > canvas.width - minus)
             console.log(ctx.font)
@@ -217,9 +217,9 @@ export default {
           border: 'transparent',
           align: 'center',
         },
-        { size: 62, weight: 900, font: 'cursive' },
+        { size: 62, weight: 900, font: '"Allura", cursive' },
         canvas.width / 2 + 200,
-        510
+        515
       )
       this.addText(
         canvas,
@@ -229,9 +229,9 @@ export default {
           border: 'transparent',
           align: 'center',
         },
-        { size: 62, weight: 900, font: 'cursive' },
+        { size: 62, weight: 900, font: '"Allura", cursive' },
         canvas.width / 2 - 100,
-        570,
+        575,
         625
       )
       this.addText(
@@ -242,9 +242,9 @@ export default {
           border: 'transparent',
           align: 'center',
         },
-        { size: 62, weight: 900, font: 'cursive' },
+        { size: 62, weight: 900, font: '"Allura", cursive' },
         canvas.width / 2,
-        808,
+        813,
         100
       )
       this.canvasURL = this.getCanvasURL()

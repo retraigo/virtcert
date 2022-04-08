@@ -1444,5 +1444,29 @@ export default [
     "name": "Malla Pavan kumar",
     "organization": "GMR Insitute of Technology",
     "title": "An optimized solution for secure Data transfer over IOT networks in smart cities"
+  },
+  {
+    "paper_id": "230",
+    "name": "A.M.N.S.P. Pavan",
+    "organization": "GMR Insitute of Technology",
+    "title": "Deep Learning based Glaucoma Detection by using CNN classifier"
+  },
+  {
+    "paper_id": "230",
+    "name": "G.Sudheer Naidu",
+    "organization": "GMR Insitute of Technology",
+    "title": "Deep Learning based Glaucoma Detection by using CNN classifier"
+  },
+  {
+    "paper_id": "230",
+    "name": "Dr. M.V.Nageswara Rao",
+    "organization": "GMR Insitute of Technology",
+    "title": "Deep Learning based Glaucoma Detection by using CNN classifier"
+  },
+  {
+    "paper_id": "230",
+    "name": "N.H.M.Nagendra",
+    "organization": "GMR Insitute of Technology",
+    "title": "Deep Learning based Glaucoma Detection by using CNN classifier"
   }
 ];
