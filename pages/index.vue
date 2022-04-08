@@ -11,7 +11,7 @@
   </div>
 </template>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('http://fonts.cdnfonts.com/css/itc-zapf-chancery');
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
 </style>
 <script>

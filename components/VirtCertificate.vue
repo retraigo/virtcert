@@ -157,10 +157,10 @@ export default {
       do {
         // Assign the font to the context and decrement it so it can be measured again
         //        console.log(
-        //          `${(fontSize -= 10)}px ${`${font}` || '"Allura", cursive'}, Arial bold`
+        //          `${(fontSize -= 10)}px ${`${font}` || '"ITC Zapf Chancery", cursive'}, Arial bold`
         //        )
         ctx.font = `${weight} ${(fontSize -= 10)}px ${
-          `${font}` || '"Allura", cursive'
+          `${font}` || '"ITC Zapf Chancery Italic 400", cursive'
         }`
       } while (ctx.measureText(text).width > canvas.width - minus)
             console.log(ctx.font)
@@ -217,7 +217,7 @@ export default {
           border: 'transparent',
           align: 'center',
         },
-        { size: 62, weight: 900, font: '"Allura", cursive' },
+        { size: 62, weight: 900, font: '"ITC Zapf Chancery", cursive' },
         canvas.width / 2 + 200,
         515
       )
@@ -229,7 +229,7 @@ export default {
           border: 'transparent',
           align: 'center',
         },
-        { size: 62, weight: 900, font: '"Allura", cursive' },
+        { size: 62, weight: 900, font: '"ITC Zapf Chancery", cursive' },
         canvas.width / 2 - 100,
         575,
         625
@@ -242,7 +242,7 @@ export default {
           border: 'transparent',
           align: 'center',
         },
-        { size: 62, weight: 900, font: '"Allura", cursive' },
+        { size: 62, weight: 900, font: '"ITC Zapf Chancery", cursive' },
         canvas.width / 2,
         813,
         100
