@@ -428,7 +428,7 @@ export default [
   {
     "paper_id": "61",
     "name": "Dr. K. Pradeep Mohan Kumar",
-    "organization": "SRM Institute of Science and Technology, Ramapuram",
+    "organization": "SRM Institute of Science and Technology, Katankulathur",
     "title": "Analyzing The Performance Of Various Intrusion Detection Datasets Using Deep Learning Model"
   },
   {
