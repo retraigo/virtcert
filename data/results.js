@@ -234,6 +234,18 @@ export default [
     "title": "SENTIMENT ANALYSIS BY USING TEXTBLOB AND MAKING THIS  INTO A WEBPAGE"
   },
   {
+    "paper_id": "43",
+    "name": "Gophika T",
+    "organization": "Easwari Engineering College",
+    "title": "Cerebral Abnormalities And EEG signal - A survey"
+  },
+  {
+    "paper_id": "43",
+    "name": "Dr. Sudha S",
+    "organization": "Easwari Engineering College",
+    "title": "Cerebral Abnormalities And EEG signal - A survey"
+  },
+  {
     "paper_id": "44",
     "name": "ANITHA.C",
     "organization": "R.M.K ENGINEERING COLLEGE",
@@ -1416,6 +1428,30 @@ export default [
     "title": "Analysis on the Execution measures of the Queuing in Radar Data Connection"
   },
   {
+    "paper_id": "225",
+    "name": "Chandrakala D",
+    "organization": "Easwari Engineering College",
+    "title": "Industry Pollution Monitoring Using IOT and Deep Learning Technology"
+  },
+  {
+    "paper_id": "225",
+    "name": "Thilagar K V",
+    "organization": "Easwari Engineering College",
+    "title": "Industry Pollution Monitoring Using IOT and Deep Learning Technology"
+  },
+  {
+    "paper_id": "225",
+    "name": "Rajan V R",
+    "organization": "Siddharth Institute of Engineering and Technology",
+    "title": "Industry Pollution Monitoring Using IOT and Deep Learning Technology"
+  },
+  {
+    "paper_id": "225",
+    "name": "Gowrishankar J",
+    "organization": "Siddharth Institute of Engineering and Technology",
+    "title": "Industry Pollution Monitoring Using IOT and Deep Learning Technology"
+  },
+  {
     "paper_id": "228",
     "name": "P Kalyanchakravarthi",
     "organization": "GMR Insitute of Technology",
@@ -1468,5 +1504,35 @@ export default [
     "name": "N.H.M.Nagendra",
     "organization": "GMR Insitute of Technology",
     "title": "Deep Learning based Glaucoma Detection by using CNN classifier"
-  }
+  },
+  {
+    "paper_id": "231",
+    "name": "L Sai Komal Vardhan",
+    "organization": "GMR Insitute of Technology",
+    "title": "An optimized solution for secure Data transfer over IOT networks in smart cities"
+  },
+  {
+    "paper_id": "231",
+    "name": "M Girish Kumar",
+    "organization": "GMR Insitute of Technology",
+    "title": "An optimized solution for secure Data transfer over IOT networks in smart cities"
+  },
+  {
+    "paper_id": "231",
+    "name": "M Pavan Kumar",
+    "organization": "GMR Insitute of Technology",
+    "title": "An optimized solution for secure Data transfer over IOT networks in smart cities"
+  },
+  {
+    "paper_id": "231",
+    "name": "P Keerthana",
+    "organization": "GMR Insitute of Technology",
+    "title": "An optimized solution for secure Data transfer over IOT networks in smart cities"
+  },
+  {
+    "paper_id": "231",
+    "name": "P Kalyanchakravarthi",
+    "organization": "GMR Insitute of Technology",
+    "title": "An optimized solution for secure Data transfer over IOT networks in smart cities"
+  },
 ];
