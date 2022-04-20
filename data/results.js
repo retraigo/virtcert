@@ -1020,6 +1020,24 @@ export default [
     "title": "FPGA Implementation of Improved 32-Bit Wallace Multiplier"
   },
   {
+    "paper_id": "156",
+    "name": "Vijay K",
+    "organization": "Rajalakshmi Engineering College",
+    "title": "Survey on Various Techniques of Stock Prediction and its Correlation with News Sentiment"
+  },
+  {
+    "paper_id": "156",
+    "name": "Vikneshwar G K",
+    "organization": "Rajalakshmi Engineering College",
+    "title": "Survey on Various Techniques of Stock Prediction and its Correlation with News Sentiment"
+  },
+  {
+    "paper_id": "156",
+    "name": "Vijay Anand R",
+    "organization": "Rajalakshmi Engineering College",
+    "title": "Survey on Various Techniques of Stock Prediction and its Correlation with News Sentiment"
+  },
+  {
     "paper_id": "157",
     "name": "R M Bhavadharini",
     "organization": "Easwari Engineering College",
@@ -1174,6 +1192,42 @@ export default [
     "name": "Dr.P.Marish Kumar",
     "organization": "Easwari Engineering College",
     "title": "Image Fusion Using Symlet Transform"
+  },
+  {
+    "paper_id": "176",
+    "name": "Vijay K",
+    "organization": "Rajalakshmi Engineering College",
+    "title": "Survey on Chaos RNN - A Root Cause Analysis and Anomaly Detection"
+  },
+  {
+    "paper_id": "176",
+    "name": "Rahul K",
+    "organization": "Rajalakshmi Engineering College",
+    "title": "Survey on Chaos RNN - A Root Cause Analysis and Anomaly Detection"
+  },
+  {
+    "paper_id": "176",
+    "name": "Sivapriya R",
+    "organization": "Rajalakshmi Engineering College",
+    "title": "Survey on Chaos RNN - A Root Cause Analysis and Anomaly Detection"
+  },
+  {
+    "paper_id": "177",
+    "name": "Diviya M",
+    "organization": "Rajalakshmi Engineering College",
+    "title": "Timber Identification based on the grain structure"
+  },
+  {
+    "paper_id": "177",
+    "name": "Sharmili S",
+    "organization": "Rajalakshmi Engineering College",
+    "title": "Timber Identification based on the grain structure"
+  },
+  {
+    "paper_id": "177",
+    "name": "Shreemithra M",
+    "organization": "Rajalakshmi Engineering College",
+    "title": "Timber Identification based on the grain structure"
   },
   {
     "paper_id": "179",
