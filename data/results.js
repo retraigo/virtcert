@@ -852,6 +852,18 @@ export default [
     "title": "Remote Sensing of Urbanization using Machine Learning"
   },
   {
+    "paper_id": "130",
+    "name": "S. Arthy",
+    "organization": "Nadar Saraswathi College of Engineering and Technology, Theni",
+    "title": "A Smart Heart Disease Prediction using IOT and Adaptive Deep Convolution Neural Network"
+  },
+  {
+    "paper_id": "130",
+    "name": "A. Prasanth",
+    "organization": "Sri Venkateswara College of Engineering, Sriperumbudur",
+    "title": "A Smart Heart Disease Prediction using IOT and Adaptive Deep Convolution Neural Network"
+  },
+  {
     "paper_id": "132",
     "name": "SWETHA S",
     "organization": "Easwari Engineering College",
