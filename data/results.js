@@ -1625,4 +1625,34 @@ export default [
     "organization": "GMR Insitute of Technology",
     "title": "An optimized solution for secure Data transfer over IOT networks in smart cities"
   },
+  {
+    "paper_id": "245",
+    "name": "K. Dhasaradhan",
+    "organization": "Aarupadai Veedu Institute of Technology",
+    "title": "Performance Analysis of Machine Learning Algorithms for Breast Cancer Prediction"
+  },
+  {
+    "paper_id": "245",
+    "name": "R. Jaichandran",
+    "organization": "Aarupadai Veedu Institute of Technology",
+    "title": "Performance Analysis of Machine Learning Algorithms for Breast Cancer Prediction"
+  },
+  {
+    "paper_id": "245",
+    "name": "S. Usha Kiruthik",
+    "organization": "Shiv Nadar University, Chennai",
+    "title": "Performance Analysis of Machine Learning Algorithms for Breast Cancer Prediction"
+  },
+  {
+    "paper_id": "246",
+    "name": "R. Jaichandran",
+    "organization": "Aarupadai Veedu Institute of Technology",
+    "title": "Early Prediction of COVID-19 Diseases using Convolutional Neural Network"
+  },
+  {
+    "paper_id": "247",
+    "name": "R. Jaichandran",
+    "organization": "Aarupadai Veedu Institute of Technology",
+    "title": "Detection of Breast Cancer using Convolution Neural Networks"
+  },
 ];
