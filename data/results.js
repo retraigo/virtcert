@@ -1404,6 +1404,36 @@ export default [
     "title": "A Comprehensive Review Of Text Summarisation"
   },
   {
+    "paper_id": "216",
+    "name": "Kanaga Suba Raja. S",
+    "organization": "Easwari Engineering College",
+    "title": "Pothole Detection and Compliant Notification"
+  },
+  {
+    "paper_id": "216",
+    "name": "B.CHANDRA",
+    "organization": "Easwari Engineering College",
+    "title": "Pothole Detection and Compliant Notification"
+  },
+  {
+    "paper_id": "216",
+    "name": "SHARON HAJHAN L U",
+    "organization": "Easwari Engineering College",
+    "title": "Pothole Detection and Compliant Notification"
+  },
+  {
+    "paper_id": "216",
+    "name": "PRASSHANTH  RK",
+    "organization": "Easwari Engineering College",
+    "title": "Pothole Detection and Compliant Notification"
+  },
+  {
+    "paper_id": "216",
+    "name": "TAMILVANAN M",
+    "organization": "Easwari Engineering College",
+    "title": "Pothole Detection and Compliant Notification"
+  },
+  {
     "paper_id": "217",
     "name": "Tarnima S Verma",
     "organization": "Vellore Institute of Technology, Chennai Campus",
