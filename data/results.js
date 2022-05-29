@@ -1669,7 +1669,7 @@ export default [
   },
   {
     "paper_id": "245",
-    "name": "S. Usha Kiruthik",
+    "name": "S. Usha Kiruthika",
     "organization": "Shiv Nadar University, Chennai",
     "title": "Performance Analysis of Machine Learning Algorithms for Breast Cancer Prediction"
   },
